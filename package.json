@@ -1,0 +1,24 @@
+{
+  "name": "new-running-bot",
+  "version": "1.0.0",
+  "description": "昔作ったやつの改良版。 「new running bot」って変じゃないよな...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mametaro-discord/new-running-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mametaro-discord/new-running-bot/issues"
+  },
+  "homepage": "https://github.com/Mametaro-discord/new-running-bot#readme",
+  "dependencies": {
+    "server.js": "^1.0.0"
+  }
+}
