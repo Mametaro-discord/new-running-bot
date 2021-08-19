@@ -105,3 +105,6 @@ dist
 
 # /none/
 package-lock.json
+
+# json
+*.json
