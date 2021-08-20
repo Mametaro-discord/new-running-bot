@@ -1,4 +1,4 @@
-a/*色々読み込み*/
+/*色々読み込み*/
 require('./createServer.js'); 
 const { Client, MessageAttachment, MessageEmbed } = require('discord.js');
 const client = new Client();

@@ -1,4 +1,4 @@
-require('./createServer.js');a
+require('./createServer.js');
 
 const { Client, MessageAttachment, MessageEmbed } = require('discord.js');
 const client = new Client();
