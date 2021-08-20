@@ -28,8 +28,8 @@ client.on('message', async () => {
   const vm = new VM();
   const { inspect } = require('util');
   try {
-    if (!groups) return throw 'コードが見つかりません';
-    if (!langArray.includes(groups.lang)) return throw 'コードブロックの言語識別子は\'js\'か\'javascript\'である必要があります';
+    if (!groups) throw 'コードが見つかりません';
+    if (!langArray.includes(groups.lang)) throw 'コードブロックの言語識別子は\'js\'か\'javascript\'である必要があります';
     const result = vm.run(groups.code);
     message.channel.send(returnContent(inspect(result)));
   } catch(e) {
