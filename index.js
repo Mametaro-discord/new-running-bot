@@ -3,6 +3,9 @@ require('./createServer.js');
 const { Client, MessageAttachment, MessageEmbed } = require('discord.js');
 const client = new Client();
 const { prefix , token } = require('./config.json');
+const { VM } = require('vm2');
+const vm = new VM();
+const { inspect } = require('util');
 
 client.on('ready', () => console.log('ready'));
 
@@ -24,9 +27,6 @@ client.on('message', async () => {
       'result.js'
     );
   };
-  const { VM } = require('vm2');
-  const vm = new VM();
-  const { inspect } = require('util');
   try {
     if (!groups) throw 'コードが見つかりません';
     if (!langArray.includes(groups.lang)) throw 'コードブロックの言語識別子は\'js\'か\'javascript\'である必要があります';
