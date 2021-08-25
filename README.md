@@ -1,5 +1,6 @@
 # new-running-bot
-![version](https://img.shields.io/github/v/release/Mametaro-discord/new-running-bot)
+![RELEASE](https://img.shields.io/github/v/release/Mametaro-discord/new-running-bot?style=flat-square)  
+![LICENSE](https://img.shields.io/github/license/Mametaro-discord/new-running-bot?style=flat-square)
 
 ## ボットの使い方
 ボットがいるサーバーのテキストチャンネルで、  
