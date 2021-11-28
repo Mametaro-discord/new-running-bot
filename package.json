@@ -1,6 +1,6 @@
 {
   "name": "runjs-bot",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "a discordBot running JavaScript",
   "main": "index.js",
   "scripts": {
